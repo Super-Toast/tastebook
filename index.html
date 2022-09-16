@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tastebook</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Edu+VIC+WA+NT+Beginner:wght@500;700&family=Poppins:wght@400;700;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="body-container">
+            <header>
+                <div class="title-container">
+                    <h1 class="title">Tastebook</h1>
+                    <h2 class="slogan">Every day something tasty!</h2>
+                </div>
+
+                <div id="menu-container">
+                    <div class="search-container">
+                        <input type="text" id="search-field">
+                        <button id="search-field-btn" class="btn">Search</button>
+                    </div>
+                    <div class="menu-buttons-container">
+                        <button id="food-categories-btn" class="btn">Food categories</button>
+                        <button id="random-recipe-btn" class="btn">Random recipe</button>
+                        <button id="filter-by-letter-btn" class="btn">Filter by first letter</button>
+                    </div>
+                    <div id="letters-container"></div>
+                </div>
+            </header>
+
+            <main>
+                <div class="meal-btn-container"></div>
+                <div class="meal-container"></div>
+            </main>
+
+            <footer>
+                <p>2022 - DC</p>
+            </footer>
+        </div>
+
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
